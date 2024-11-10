@@ -10,8 +10,12 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // ここにカスタムカラーを追加
+        primary: '#FF6B6B',    // サンセットピンク
+        secondary: '#4ECDC4',  // ミントグリーン
       },
     },
   },
   plugins: [],
 };
+
