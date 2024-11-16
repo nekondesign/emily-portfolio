@@ -13,7 +13,7 @@ export default function Home() {
                 Creative Web Designer
               </h1>
               <p className="text-xl text-gray-600">
-                Hi, I'm Emily. I create beautiful and functional websites
+                Hi, I&apos;m Emily. I create beautiful and functional websites
                 that help businesses grow.
               </p>
               <Button>more info</Button>

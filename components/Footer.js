@@ -4,7 +4,7 @@ export default function Footer() {
         <div className="container mx-auto px-6 py-8">
           <div className="text-center">
             <p className="text-gray-600">
-              © 2024 Emily's Portfolio. All rights reserved.
+              © 2024 Emily&apos;s Portfolio. All rights reserved.
             </p>
             <div className="mt-4 space-x-4">
               <a href="#" className="text-gray-600 hover:text-primary">
