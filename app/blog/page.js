@@ -2,6 +2,22 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getAllBlogPosts } from '@/lib/blog'
 
+export const metadata = {
+  title: 'blogpage', // ページのタイトル
+  description: 'blogpageはこちらです', // ページの説明
+  openGraph: {
+    title: 'blogpage',
+    description: 'blogpageはこちらです',
+    images: [
+      {
+        url: '/home-image.jpg',
+        width: 1200,
+        height: 630,
+      }
+    ],
+  },
+}
+
 export default async function BlogPage() {
   const posts = await getAllBlogPosts()
 
