@@ -1,3 +1,4 @@
+import GoogleAnalytics from './third-parties/google-analytics'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
@@ -76,6 +77,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">
           {children}
+          <GoogleAnalytics />
         </main>
         <Footer />
       </body>
